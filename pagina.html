@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultura</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        .container {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background-image: url('img/fundoHidrico.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        .texto-acima {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+            font-size: 24px;
+        }
+        .imagem-direita {
+            position: absolute;
+            top: 30%;
+            right: 1000px;
+            transform: translateY(-50%);
+            width: 400px; 
+            height: auto;
+        }
+        .video-esquerda {
+            position: absolute;
+            top: 30%;
+            left: 1000px;
+            transform: translateY(-50%);
+            width: 400px; 
+            height: auto;
+        }
+        .texto-abaixo {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: rgb(7, 32, 0);
+            font-size: 20px;
+            text-align: center;
+            background-color: rgb(136, 136, 136);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    
+    <img class="imagem-direita" src="img/esquerda.jpg" alt="Imagem Direita">
+    <video class="video-esquerda" controls>
+        <source src="img/WhatsApp Video 2024-05-04 at 10.36.30 PM.mp4" type="video/mp4">
+        Seu navegador não suporta o elemento de vídeo.
+    </video>
+    <div class="texto-abaixo">No mapa da hidrologia da região, podemos observar uma série de elementos que representam diferentes características do ambiente aquático. No ponto mais próximo do mar, um barco indica até onde as pequenas/médias embarcações podem navegar com segurança. Esse ponto também pode indicar uma área de transição entre água salgada e doce, influenciando a biodiversidade local.
+
+        Mais acima, um segundo ponto destaca a região com maior biodiversidade, tanto abaixo quanto acima da água. Esta área pode ser um habitat crucial para diversas espécies de flora e fauna aquáticas.
+        
+        Além disso, há um ponto onde um rio se divide em dois. À esquerda, uma cachoeira encantadora, que não só adiciona beleza cênica, mas também pode servir como um obstáculo natural para a migração de certas espécies aquáticas. À direita, uma corrente forte e perigosa, que pode ser inapropriada para natação e pesca devido ao seu movimento vigoroso e riscos associados.
+        
+        Finalmente, há um ponto marcado como a estação de tratamento de água (Sanepar), indicando onde a água é coletada e tratada para consumo humano. Esta é uma parte essencial da gestão da água para garantir que ela esteja limpa e segura para uso doméstico e industrial.</div>
+</div>
+
+</body>
+</html>
